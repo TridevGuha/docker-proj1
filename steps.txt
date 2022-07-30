@@ -1,0 +1,15 @@
+install jenkins
+install git
+install docker
+create dockerfile for apache
+push dockerfile to github
+
+login to jenkins: and manage jenkins -> docker , docker pipeline
+in jenkins add dockerhub credential from gloabl congf
+
+create a pipeline job and copy paste the groovy sctipr from 
+https://github.com/TridevGuha/docker-proj1.git
+apt install acl -y && setfacl -m jenkins:rwx /var/run/docker.sock && getfacl /var/run/docker.sock
+
+make sure dockerfile is in the /var/linb/jenkins/workspace/<proj-name> fodler - [put it manually iof not present
+
