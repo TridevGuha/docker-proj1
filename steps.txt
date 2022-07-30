@@ -1,7 +1,7 @@
 1. run bootstrap.sh (covers git and docker and acl installation)
 2. install jenkins -> run jenkins.sh
 3. create token in github and dockerhub
-4. create dockerfile for apache
+4. create pipeline project and navigate to it in cmdline and create dockerfile
 5. push dockerfile to github:
 git init
 git add Dockerfile 
