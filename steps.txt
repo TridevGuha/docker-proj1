@@ -13,3 +13,4 @@ https://github.com/TridevGuha/docker-proj1.git
 9. troubleshoot: make sure dockerfile is in the /var/linb/jenkins/workspace/<proj-name> fodler - put it manually iof not present
 
 10. run groovy.gy (eliminate remove container/image / last step)
+verify the same with:  # docker ps && docker images
