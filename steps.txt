@@ -1,4 +1,4 @@
-1. install jenkins
+1. install jenkins (run jenkins.sh, also covers git and docker installation)
 2. install git
 3. install docker
 4. create dockerfile for apache
