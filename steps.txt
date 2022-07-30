@@ -1,6 +1,6 @@
 1. run bootstrap.sh (covers git and docker and acl installation)
 2. install jenkins 
-3. create token in git and jenkins
+3. create token in github and dockerhub
 4. create dockerfile for apache
 5. push dockerfile to github:
 git init
