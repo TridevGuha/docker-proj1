@@ -1,7 +1,5 @@
-1. run bootstrap.sh
-1.1. install jenkins (run jenkins.sh, also covers git and docker installation)
-2. install git
-3. install docker
+1. run bootstrap.sh (covers git and docker and acl installation)
+1.1. install jenkins 
 4. create dockerfile for apache
 5. push dockerfile to github:
 git init
@@ -14,7 +12,7 @@ in jenkins add dockerhub credential from gloabl conf (keep id: value same which 
 
 7. create a pipeline job and copy paste the groovy sctipr from 
 https://github.com/TridevGuha/docker-proj1.git
-8. apt install acl -y && setfacl -m jenkins:rwx /var/run/docker.sock && getfacl /var/run/docker.sock
+8. setfacl -m jenkins:rwx /var/run/docker.sock && getfacl /var/run/docker.sock
 9. troubleshoot: make sure dockerfile is in the /var/linb/jenkins/workspace/<proj-name> fodler - put it manually iof not present
 
 10. run groovy.gy (eliminate remove container/image / last step)
