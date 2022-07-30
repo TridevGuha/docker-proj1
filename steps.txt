@@ -2,7 +2,11 @@
 2. install git
 3. install docker
 4. create dockerfile for apache
-5. push dockerfile to github
+5. push dockerfile to github:
+git init
+git add Dockerfile 
+git status
+git: username / token(not password)
 
 6. login to jenkins: and manage jenkins -> docker , docker pipeline
 in jenkins add dockerhub credential from gloabl congf
