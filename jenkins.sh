@@ -10,5 +10,7 @@ apt update -y
 sleep 2
 apt install jenkins -y
 sleep 3
-dpkg -l | grep jenkins
+which docker
+which jenkins
+which git
 cat /var/lib/jenkins/secrets/initialAdminPassword
