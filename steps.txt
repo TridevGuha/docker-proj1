@@ -2,14 +2,16 @@
 2. install jenkins -> run jenkins.sh
 3. create token in github and dockerhub
 4. create pipeline project and navigate to it in cmdline and create dockerfile
-5. push dockerfile to github:
+
+5. login to jenkins: and manage jenkins -> docker , docker pipeline
+in jenkins add dockerhub credential from gloabl conf (keep id: value same which is passed to credentials in groovy, e.g: dockerhub)
+
+6. push dockerfile to github:
 git init
 git add Dockerfile 
 git status
 git: username / token(not password)
 
-6. login to jenkins: and manage jenkins -> docker , docker pipeline
-in jenkins add dockerhub credential from gloabl conf (keep id: value same which is passed to credentials in groovy, e.g: dockerhub)
 
 7. create a pipeline job and copy paste the groovy sctipr from 
 https://github.com/TridevGuha/docker-proj1.git
