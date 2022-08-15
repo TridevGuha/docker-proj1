@@ -3,7 +3,7 @@ sudo apt update -y
 sleep 5
 sudo apt upgrade -y
 sleep 5
-sudo apt -y install git docker acl -y
+sudo apt -y install git docker.io acl -y
 sleep 3
 systemctl enable --now docker
 sudo apt autoremove -y
